@@ -2,6 +2,10 @@ import mockery from 'mockery'
 import m from 'module'
 import english from '../App/I18n/languages/english.json'
 import {keys, replace, forEach} from 'ramda'
+import Enzyme from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
+
+Enzyme.configure({ adapter: new Adapter() })
 
 // inject __DEV__ as it is not available when running through the tests
 global.__DEV__ = true

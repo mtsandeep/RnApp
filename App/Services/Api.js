@@ -45,8 +45,7 @@ const create = (baseURL = 'https://api.spotify.com/v1/') => {
     query,
     type: 'track',
     limit: 10
-  });
-
+  })
 
   // ------
   // STEP 3

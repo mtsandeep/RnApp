@@ -1,11 +1,10 @@
 import '../Config'
 import React, { Component } from 'react'
-import { Provider } from 'mobx-react';
+import { Provider } from 'mobx-react'
 
-import stores from '../MobX';
+import stores from '../MobX'
 
 import RootContainer from './RootContainer'
-
 
 /**
  * Provides an entry point into our application.  Both index.ios.js and index.android.js

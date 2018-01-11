@@ -18,7 +18,7 @@ if (Config.useReactotron) {
     }))
 
     // register apisauce so we can install a monitor later
-    .use(apisaucePlugin())  
+    .use(apisaucePlugin())
 
     // let's connect!
     .connect()

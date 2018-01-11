@@ -1,10 +1,6 @@
-import SpotifyStore from './SpotifyStore';
-import navigationStore from './NavigationStore';
-import userStore from './UserStore';
+import navigationStore from './NavigationStore'
 
 export default {
-  searchStore: new SpotifyStore(),
-  navigationStore,
-  userStore
+  navigationStore
   // place for other stores...
-};
+}
