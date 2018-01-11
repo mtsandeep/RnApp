@@ -9,7 +9,7 @@ const PrimaryNav = StackNavigator({
   LaunchScreen: {
     screen: LaunchScreen,
     navigationOptions: () => ({
-      headerVisible: false
+      header: false
     })
   }
 }, {
